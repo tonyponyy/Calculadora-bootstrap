@@ -95,7 +95,7 @@ function igual(){
           break;
         case 2:
           //RESTA
-          valor = valor_anterior-valor;
+          valor =  valor_anterior-valor;
           break;
         case 3:
           //MULTIPLICAR
@@ -112,6 +112,20 @@ function igual(){
         
       }
       valor_anterior = 0;
+      operacion_actual=-1;
       imprimir(valor);
 
+}
+
+function retr(){
+    let temp = valor;
+    valor = valor_anterior;
+    valor_anterior = temp;
+    imprimir(valor);
+}
+
+
+function C(){
+imprimir(0);
+valor=0;
 }
