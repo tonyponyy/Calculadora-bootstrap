@@ -1,4 +1,5 @@
 # Calculadora
  Calculadora en Bootstrap
 
-<img scr:"https://github.com/Aziz863/Calculadora-bootstrap/img/calculadora.PNG">
+<img src="https://github.com/tonyponyy/Calculadora-bootstrap/blob/Aziz/img/calculadora.PNG">
+
